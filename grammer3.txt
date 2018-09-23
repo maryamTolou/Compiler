@@ -1,0 +1,26 @@
+IFST if ( BST ) { } IFST#
+IFST# else { ST }
+IFST# endif
+BST E BST# ; 
+BST# == E 
+BST# >= E 
+BST# <= E 
+BST# > E 
+BST# < E 
+BST# null
+E T E#
+E# + T E#
+E# - T E#
+E# || T E#
+E# null
+T F T#
+T# * F T#
+T# / F T#
+T# && F T#
+T# null
+F id F#
+F num
+F# ++
+F# --
+F# null
+F ( E )

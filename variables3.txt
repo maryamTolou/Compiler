@@ -1,0 +1,10 @@
+IFST
+IFST#
+BST
+BST#
+E
+E#
+T
+T#
+F
+F#

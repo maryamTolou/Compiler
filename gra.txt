@@ -1,0 +1,54 @@
+P main ( ) { ST# } STL
+STL TYPE id ( DEC## ) { ST# return E ; }
+STL null
+ST IFST
+ST WST
+ST DWST
+ST DEC
+ST AST
+ST FST
+ST# ST ST#
+ST# null
+E T E#
+E# + T E#
+E# - T E#
+E# || T E#
+E# null
+T F T#
+T# * F T#
+T# / F T#
+T# && F T#
+T# null
+F id F#
+F num
+F# ++
+F# --
+F# null
+F ( E )
+IFST if ( BST ) { ST# } IFST#
+IFST# else { ST# }
+IFST# endif
+WST while ( BST ) { ST# }
+DWST do { ST# } while ( BST ) ;
+FST for ( AST BST FST# ) { ST# }
+FST# id FST##
+FST## ++
+FST## --
+DEC TYPE id DEC#
+DEC# , id DEC#
+DEC# ;
+DEC## TYPE id DEC###
+DEC### , id DEC###
+DEC### null
+TYPE int
+TYPE float
+TYPE double
+TYPE char
+AST id = E ;
+BST E BST# ; 
+BST# == E 
+BST# >= E 
+BST# <= E 
+BST# > E 
+BST# < E 
+BST# null
